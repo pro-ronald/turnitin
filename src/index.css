@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print\:hidden,
+  header,
+  nav,
+  button {
+    display: none !important;
+  }
+
+  .certificate-print-page {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-shadow: none !important;
+  }
+
+  .certificate-paper {
+    border-width: 2px !important;
+    border-color: #0f172a !important;
+    box-shadow: none !important;
+    border-radius: 8px !important;
+    page-break-inside: avoid;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Simulador Turnitin IA 2026",
+  "description": "Engine de detección forense de escrituras por Inteligencia Artificial con arquitectura Turnitin y escala UNIR 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
